@@ -1,11 +1,13 @@
 {
     "powermode.enabled": true,
     "powermode.shake.enabled": true,
-    "powermode.presets": "flames",
+    "powermode.presets": "", // must be empty for custom gifs
     "powermode.combo.location": "topRight",
-    "powermode.explosions.explosionFrequency": 2,
-    "powermode.explosions.maxExplosions": 3,
-    "powermode.explosions.gifMode": "restart"
-
-    
+    "powermode.explosions.explosionFrequency": 1,
+    "powermode.explosions.maxExplosions": 1,
+    "powermode.explosions.gifMode": "continue",
+    "powermode.explosions.backgroundMode": "image",
+    "powermode.explosions.customExplosions": ["https://i.pinimg.com/originals/cb/26/25/cb262560dbf553b91deeec5bd35d216b.gif"],
+    "powermode.explosions.customCss": "transform: scale(2); opacity: 1;",
+    "editor.renderWhitespace": "all"
 }
